@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menggunakan tinggi viewport untuk membuat konten berada di tengah vertikal */
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    margin: 20px auto; /* 20px atas dan bawah, auto untuk tengah secara horizontal */
+    border: 1px solid black;
+}
